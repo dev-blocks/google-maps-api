@@ -41,6 +41,19 @@ var map = new google.maps.Map(document.getElementById("map"), {
 });
 ```
 
+Map Type Control.
+```javascript
+var map = new google.maps.Map(document.getElementById("map"), {
+  center: {
+    lat: _lat,
+    lng: _lng,
+    zoom: _zoom,
+    streetViewControl: false,
+    mapTypeControl: false,
+  },
+});
+```
+
 ### 📌 Markers.
 Create a marker on the map.
 ```javascript
