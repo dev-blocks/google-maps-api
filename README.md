@@ -3,7 +3,7 @@
 
 ---
 
-### 🌎 Maps.
+## 🌎 Maps.
 Create a map on my website.
 ```html
 <div class="google__maps__component" id="map"></div>
@@ -76,7 +76,7 @@ var map = new google.maps.Map(document.getElementById("map"), {
 });
 ```
 
-### 📌 Markers.
+## 📌 Markers.
 Create a marker on the map.
 ```javascript
 var marker = new google.maps.Marker({
@@ -98,7 +98,7 @@ var marker = new google.maps.Marker({
 
 ---
 
-### 🖌 Style.
+## 🖌 Style.
 
 🔗 [Snazzymaps – Styles for Google Maps](https://snazzymaps.com/)
 
