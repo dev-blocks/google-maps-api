@@ -54,6 +54,17 @@ var map = new google.maps.Map(document.getElementById("map"), {
 });
 ```
 
+Disabling the Default UI.
+```javascript
+var map = new google.maps.Map(document.getElementById("map"), {
+  center: {
+    lat: _lat,
+    lng: _lng,
+    disableDefaultUI: true
+  },
+});
+```
+
 ### 📌 Markers.
 Create a marker on the map.
 ```javascript
