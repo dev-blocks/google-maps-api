@@ -18,6 +18,29 @@ var map = new google.maps.Map(document.getElementById("map"), {
 });
 ```
 
+Zoom on the map.
+```javascript
+var map = new google.maps.Map(document.getElementById("map"), {
+  center: {
+    lat: _lat,
+    lng: _lng,
+    zoom: _zoom
+  },
+});
+```
+
+Street View Control.
+```javascript
+var map = new google.maps.Map(document.getElementById("map"), {
+  center: {
+    lat: _lat,
+    lng: _lng,
+    zoom: _zoom,
+    streetViewControl: false
+  },
+});
+```
+
 ### 📌 Markers.
 Create a marker on the map.
 ```javascript
