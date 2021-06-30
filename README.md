@@ -3,7 +3,7 @@
 
 ---
 
-### Maps.
+### 🌎 Maps.
 Create a map on my website.
 ```html
 <div class="google__maps__component" id="map"></div>
