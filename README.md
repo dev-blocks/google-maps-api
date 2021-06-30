@@ -3,8 +3,23 @@
 
 ---
 
+### Maps.
+Create a map on my website.
+```html
+<div class="google__maps__component" id="map"></div>
+```
+
+```javascript
+var map = new google.maps.Map(document.getElementById("map"), {
+  center: {
+    lat: _lat,
+    lng: _lng
+  },
+});
+```
+
 ### 📌 Markers.
-Create a marker on the map
+Create a marker on the map.
 ```javascript
 var marker = new google.maps.Marker({
   position: new google.maps.LatLng(_lat, _lng),
