@@ -29,6 +29,17 @@ var map = new google.maps.Map(document.getElementById("map"), {
 });
 ```
 
+Zoom Control.
+```javascript
+var map = new google.maps.Map(document.getElementById("map"), {
+  center: {
+    lat: _lat,
+    lng: _lng,
+    zoomControl: false
+  },
+});
+```
+
 Street View Control.
 ```javascript
 var map = new google.maps.Map(document.getElementById("map"), {
