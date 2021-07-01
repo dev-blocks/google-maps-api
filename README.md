@@ -96,7 +96,7 @@ var marker = new google.maps.Marker({
 });
 ```
 
-## Geolocation
+## 📍 Geolocation
 Get the user's current location permissions.
 ```javascript
 // Click Button get geolocation...
